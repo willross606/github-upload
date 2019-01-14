@@ -50,4 +50,16 @@ $(function(){
 		}
 	});
 
+	$('.back-to-top').on('click', function(e){
+		e.preventDefault();
+		console.log
+		var theTarget = $(this).attr('href');
+		if (theTarget.substring(0,1) == '#') {
+			var theAnchor = theTarget.substring(1,theTarget.length -1);
+			$('html, body').animate({				
+				scrollTop: $(theTarget).offset().top + 1
+			}, 500);
+		}
+	});
+
 });
