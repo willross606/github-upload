@@ -1,0 +1,24 @@
+.clever-nav {
+	list-style-type: none;
+	position: fixed;
+	padding-top: 20px;
+}
+
+.clever-nav li a {
+	padding: 7px 10px;
+	display: block;
+	border-left: 5px solid #ffffff;
+}
+
+.clever-nav li a:hover {
+	background-color: #f5f5f5;
+}
+
+.clever-nav li a.active {
+	border-left: 5px solid #0000ee;
+}
+
+.footer {
+	height: 200px;
+	background-color: #eee;
+}
