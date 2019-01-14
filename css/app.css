@@ -1,3 +1,11 @@
+h1, h2, h3, h4, h5, h6, p, li, a {
+	font-family: 'Sarabun', sans-serif;
+}
+
+h1 {
+	font-weight: 900;
+}
+
 .clever-nav {
 	list-style-type: none;
 	position: fixed;
